@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Icons');
+:root {
+    --darkest: #002b36;
+    --darker: #073642;
+    --dark: #094655;
+	--gray-dark: #586E75;
+	--gray:#657B83;
+	--gray-light:#839496;
+    --light: #EEE8D5;
+    --lighter: #FDF6E3;
+    --lightest: #FDFAF0;
+
+    --blue: #268bd2;
+    --cyan: #2aa198;
+    --green: #859900;
+	--violet: #6c71c4;
+	--orange: #cb4b16;
+	--red: #dc322f;
+	--yellow: #b58900;
+
+    --bg: var(--light);
+    --bg-light: var(--lighter);
+    --bg-lighter: var(--lightest);
+    --fg: var(--darkest);
+	--fg-light: var(--gray);
+
+    --desktop: 960px;
+    --gap: 20px;
+    --pad: 10px;
+    --font: 16px/1.5 'Fira Sans', sans-serif;
+    --fancy-family: 'Merriweather', serif;
+}
+
+*::-moz-focus-inner {
+    border: 0;
+}
+
+*:focus {
+    outline: 0;
+    border-bottom-color: var(--blue);
+    border-bottom-style: solid;
+}
+
+body {
+    margin: 0;
+    background-color: var(--bg);
+    font: var(--font);
+    color: var(--fg);
+}
+
+body.animate {
+    transition: background-color 0.4s, color 0.4s;
+}
+
+body.dark-theme {
+    --bg: var(--darkest);
+    --bg-light: var(--darker);
+    --bg-lighter: var(--dark);
+    --fg: var(--light);
+    --fg-light: var(--gray-light);
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+h1,
+h2 {
+	font-weight: normal;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 1.5rem;
+}
+
+hr {
+    border: 0;
+    border-top: 2px solid var(--bg-lighter);
+}
+
+blockquote {
+    padding: var(--pad);
+    padding-left: var(--gap);
+    margin: var(--gap);
+    background-color: var(--bg);
+    border-left: 5px solid var(--bg-lighter);
+}
+
+a {
+    color: var(--blue);
+    text-decoration: none;
+    border-bottom: 2px dotted transparent;
+}
+
+a:hover {
+    border-bottom-color: var(--blue);
+}
+
+nav {
+    height: 100%;
+    position: relative;
+}
+
+nav ul.card {
+    padding: 0;
+}
+
+nav li,
+nav a {
+    display: block;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: var(--stylized);
+    font-weight: bold;
+    color: var(--blue);
+    line-height: 1;
+    font-size: 1.2em;
+    border-bottom: 5px solid transparent;
+    padding: var(--gap);
+    padding-bottom: calc(var(--gap) - 5px);
+}
+
+.dark-theme nav a {
+	color: var(--fg-light);
+}
+
+nav a.active,
+nav a.active:hover {
+    color: var(--blue);
+    border-bottom-color: var(--blue);
+}
+
+nav a:hover {
+    text-decoration: none;
+    border-bottom-color: var(--fg-light);
+}
+
+nav button i.material-icons {
+    display: block;
+}
+
+footer {
+    padding: var(--gap);
+    padding-bottom: calc(var(--gap) - 4px);
+    border-bottom: 4px solid var(--bg-lighter);
+}
+
+.animate footer {
+    transition: border-bottom-color 0.4s;
+}
+
+footer p {
+    margin: 0;
+    line-height: 1;
+}
+
+address {
+    font-style: normal;
+}

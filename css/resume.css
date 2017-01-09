@@ -1,0 +1,153 @@
+main {
+	position: relative;
+	z-index: 1;
+	--margin: 1rem;
+}
+
+main.card {
+	padding: calc(var(--gap) * 2);
+}
+
+h1, h2, h3, h4, ul, p {
+	margin: 0;
+}
+
+h1, h2, h3 {
+	font-weight: bold;
+}
+
+h1, h2, h1 + p {
+	color: var(--blue);
+}
+
+h2 {
+	font-size: 1rem;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 1rem;
+	margin-top: var(--margin);
+}
+
+h4 {
+	color: var(--fg-light);
+}
+
+h1 {
+	float: left;
+	width: calc(65% - var(--gap));
+	margin-bottom: var(--gap);
+}
+
+h1 + p {
+	display: inline-block;
+	margin-left: var(--gap);
+	margin-bottom: var(--gap);
+}
+
+
+#experience, #experience ~ * {
+	float: left;
+	width: calc(65% - var(--gap));
+	box-sizing: border-box;
+}
+
+#education, #education ~ * {
+	float: none;
+	width: 35%;
+	margin-left: var(--gap);
+	display: inline-block;
+}
+
+#skills, #awards {
+	margin-top: var(--margin);
+}
+
+button {
+	position: absolute;
+	top: var(--gap);
+	right: var(--gap);
+	z-index: 2;
+	padding: calc(var(--pad) / 2);
+	cursor: pointer;
+}
+
+button > * {
+	display: block;
+	float: left;
+}
+
+button span {
+	font-size: 16px;
+	line-height: 24px;
+	vertical-align: top;
+	margin-left: calc(var(--pad) / 2);
+}
+
+ul {
+	padding-left: 1em;
+	margin: var(--margin) 0;
+}
+
+#skills ~ ul {
+	margin: 0;
+	margin-left:var(--gap);
+	padding: 0;
+}
+
+
+#skills ~ ul li {
+	display: inline-block;
+}
+
+#skills ~ ul li::before {
+	content: "• ";
+}
+
+#skills ~ ul li:first-child:before {
+	content: "";
+}
+
+@media print {
+	@page {
+		size: auto;
+		margin: 0;
+	}
+	body {
+		margin: 0;
+		color: black;
+		background: white;
+	}
+	h1, h1 + p {
+		margin-bottom: 0;
+	}
+	ul {
+		margin: 4pt 0;
+	}
+	ul + p {
+		margin-bottom: 4pt;
+	}
+	h2#skills {
+		margin-top: 4pt;
+	}
+	h1 {
+		font-size: 18pt;
+	}
+	h2, h3, h4, p, ul {
+		font-size: 9pt;
+	}
+	h1, h2, h1 + p, a {
+		color: var(--blue);
+	}
+	header, footer, button {
+		display: none;
+	}
+	main.card {
+		background: transparent;
+		border-color: transparent;
+		box-shadow: none;
+		padding: var(--gap);
+	}
+}
+

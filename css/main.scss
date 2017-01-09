@@ -1,0 +1,62 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@import 'https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i';
+
+@charset "utf-8";
+
+// Variables
+
+$base-font-family: Lato, sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     20px;
+
+$text-color:       #333;
+$background-color: #f7f7f7;
+
+$brand-color:      #006dce;
+$brand-color-light: lighten($brand-color, 25%);
+$brand-color-dark: darken($brand-color, 25%);
+
+$link-color:       $brand-color;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 25%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+$animation-duration: 0.4s;
+
+$desktop:          720px;
+$mobile:           480px;
+$tablet:           720px;
+
+// Responsive mixins
+
+@mixin on-mobile() {
+   @media screen and (max-width: $mobile) {
+        @content;
+    }
+}
+
+@mixin on-tablet() {
+   @media screen and (max-width: $tablet) {
+        @content;
+    }
+}
+
+@mixin on-desktop() {
+   @media screen and (min-width: $desktop) {
+        @content;
+    }
+}
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+
+@import
+        "base",
+        "layout"
+;
