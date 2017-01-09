@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	{% include head.html %}
+	<link rel="stylesheet" href="/css/resume.css">
+</head>
+
+<body>
+    <div class="wrap">
+        {% include header.html %}
+        <main class="card">
+			<button onclick="window.print();return false;"><i class="material-icons">print</i><span>Print</span></button>
+			{{ content }}
+        </main>
+        {% include footer.html %}
+    </div>
+</body>
+
+</html>
