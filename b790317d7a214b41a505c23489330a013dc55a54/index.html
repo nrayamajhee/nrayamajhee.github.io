@@ -1,0 +1,1099 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Scholarships</title>
+	<link rel="stylesheet" href="scholarship.css">
+</head>
+<body style="margin: 0">
+    <!-- beginning of deploy code -->
+    <!-- the markup -->
+    <div class="accordian" onload="init()">
+        <h1>Scholarships</h1>
+        <div class="header-bar">
+            <button class="toggle" onclick="toggle()">Reveal All</button>
+            <input class="searchInput" type="text" onkeyup="findInPage(this.value)" placeholder="search for scholarships">
+            <button class="next" onclick="next()">Switch Folder</button>
+        </div>
+        <section id= "search">
+            <h2>Search Results</h2>
+        </section>
+        <section id="endowment" class="shown">
+            <h2>Endowment</h2>
+            <div>
+                <input id="end-1" type="checkbox">
+                <label for="end-1">Svenson Award for Fiction</label>
+                <article>
+                    <p class="dep">English</p>
+                    <p class="ref">#80708</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="end-2" type="checkbox">
+                <label for="end-2">Jennifer R. Miller Memorial Environmental Geology Award</label>
+                <article>
+                    <p class="dep">Earth and Environmental Science</p>
+                    <p class="ref">#80711</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="end-3" type="checkbox">
+                <label for="end-3">UNOF General Scholarship Endowment</label>
+                <article>
+                    <p class="dep">[no department]</p>
+                    <p class="ref">#80778</p>
+                    <p>Need-based as recommended by financial aid and scholarship</p>
+                </article>
+            </div>
+            <div>
+                <input id="end-4" type="checkbox">
+                <label for="end-4">Dr. Philip J. Harmelink & Naomi S. Harris Award</label>
+                <article>
+                    <p class="dep">Accounting</p>
+                    <p class="ref">#80782</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="end-5" type="checkbox">
+                <label for="end-5">Ruth U. Fertel Scholarship</label>
+                <article>
+                    <p class="dep">Financial Aid</p>
+                    <p class="ref">#80784</p>
+                    <p>Letter dated 4/3/09 from Bob Merrick: Please direct this money toward scholarships for those requiring financial assistance.</p>
+                </article>
+            </div>
+            <div>
+                <input id="end-6" type="checkbox">
+                <label for="end-6">Professor Robert Lipp Memorial Scholarship</label>
+                <article>
+                    <p class="dep">Mechanical Engineering</p>
+                    <p class="ref">#80814</p>
+                    <p>To be used as Scholarships for Mechanical Engineering undergraduates that meet certain criteria. The student will not have any other schoalrships or awards such as a TOPS. The student will have completed at least 60 credits toward a BS degree in Mechanical Engineering with a GPA of at least 2.5.</p>
+                </article>
+            </div>
+            <div>
+                <input id="end-7" type="checkbox">
+                <label for="end-7">Laura Pebble Endowed Scholarship</label>
+                <article>
+                    <p class="dep">Accounting</p>
+                    <p class="ref">#80821</p>
+                    <p>Scholarship to be awarded to a student in the Department of Accounting; if it scholarship cannot be applied to a student in the Dept. of Accounting, the university may use the scholarship for any purpose that the Chancellor believes will most nearly accomplish the wishes and purpose in which the scholarship was created.</p>
+                </article>
+            </div>
+            <div>
+                <input id="end-8" type="checkbox">
+                <label for="end-8">50th Anniversary Commemorative Scholarship</label>
+                <article>
+                    <p class="dep">[no department]</p>
+                    <p class="ref">#80822</p>
+                    <p>Priority will be given to children of UNO Alumni. Students must have a high School GPA of 3.0 or above (as calculated by Admissions). Must be enrolled in a degree program. Priority will be given to those students who live outside of metro New Orleans and who live in the University dorms.</p>
+                    <p>Renewal Criteria: Student enrolls full-time each semester. Student maintains a Cumulative 2.75 GPA. Student must earn a minimum 24 hours per academic year. Award for up to 4 years or until degree earned.</p>
+                </article>
+            </div>
+            <div>
+                <input id="end-9" type="checkbox">
+                <label for="end-9">AT&T First Generation Scholarship</label>
+                <article>
+                    <p class="dep">[no department]</p>
+                    <p class="ref">#80825</p>
+                    <p>Students must be Louisiana residents; must be first-generation college students (i.e. neither parent or legal guardian have earned a college degree); must be awarded federal Pell Grant. Students must maintain a cumulative 2.3 GPA first year and 2.5 GPA or above thereafter, earn at least 24 credit hours at the end of Fall and Spring semesters (if not, students should attend Spring Intercession to make up hours), and must work a minimum of 10 hours a week.</p>
+                </article>
+            </div>
+            <div>
+                <input id="end-10" type="checkbox">
+                <label for="end-11">Bill J. Good Scholarship</label>
+                <article>
+                    <p class="dep">College of Science </p>
+                    <p class="ref">#80826</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="end-11" type="checkbox">
+                <label for="end-11">John E. and Marie Altazan Scholarship</label>
+                <article>
+                    <p class="dep">College of Business</p>
+                    <p class="ref">#80827</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="end-12" type="checkbox">
+                <label for="end-12">Marilyn Schof Gover Endowed Scholarship in Accounting</label>
+                <article>
+                    <p class="dep">Accounting </p>
+                    <p class="ref">#80830</p>
+                    <p>The recipient should be a female accounting major entering her final year of study.  The recipient should be selected by a committee of the Accounting Department faculty. The recipient should hold promise of success in the public or private sector of accounting. The student should not necessarily be a straight A student, i.e., one who spends all her time in the library studying. The recipient should be involved in campus organizations and/or work on or off campus.  Financial need is not a requirement but should be considered. Single mothers should be considered realizing their time to be involved in campus activities is limited if at all possible.
+                     </p>
+                </article>
+            </div>
+            <div>
+                <input id="end-13" type="checkbox">
+                <label for="end-13">Randall E. Knowles Scholarship</label>
+                <article>
+                    <p class="dep">School of Hospitality, Restaurant, and Tourism Administration </p>
+                    <p class="ref">#80832</p>
+                    <p>Full time undergraduate in a hospitality-related degree-granting program approved by Foundation. Sophomore or junior at time of application. Minimum 3.0 GPA. Must be U.S. citizen or permanent U.S. resident. Based on combination of student’s academic performance, related work experience, FAFSA, and personal attributes.
+                     </p>
+                </article>
+            </div>
+            <div>
+                <input id="end-14" type="checkbox">
+                <label for="end-14">New Beginning Scholarship Fund </label>
+                <article>
+                    <p class="dep">College of Education and Human Development</p>
+                    <p class="ref">#80834</p>
+                    <p>Scholarship recognizes graduating seniors or Thurgood Marshall Early College High School [sic] who have demonstrated the qualities that predict readiness for college success; high academic achievements, perSeverance, Commitment, peer leadership, and positive attitude and must show financial need.
+                     </p>
+                </article>
+            </div>
+            <div>
+                <input id="end-15" type="checkbox">
+                <label for="end-15">Sue Rowland Women’s Scholarship</label>
+                <article>
+                    <p class="dep">[no department]</p>
+                    <p class="ref">#80835</p>
+                    <p>Annual award for one or more recipients who are non-traditional female students supporting children/homes as single mothers.</p>
+                </article>
+            </div>
+            <div>
+                <input id="end-16" type="checkbox">
+                <label for="end-16">Founding Dean’s Award</label>
+                <article>
+                    <p class="dep">College of Engineering</p>
+                    <p class="ref">#80838</p>
+                    <p>Disbursement shall be in the form of an individual award of $250 to a recipient selected by the faculty of the College of Engineering to a black engineering undergraduate for excellent work.
+                     </p>
+                </article>
+            </div>
+            <div>
+                <input id="end-17" type="checkbox">
+                <label for="end-17">Glen Hebert Petroleum and Geology Scholarship </label>
+                <article>
+                    <p class="dep">College of Science</p>
+                    <p class="ref">#80839</p>
+                    <p>[no criteria]
+                     </p>
+                </article>
+            </div>
+            <div>
+                <input id="end-18" type="checkbox">
+                <label for="end-18">Mindy Elizabeth Guidry Memorial Scholarship</label>
+                <article>
+                    <p class="dep">College of Science</p>
+                    <p class="ref">#80840</p>
+                    <p>    Must be as a full time student (12 or more hours) at UNO; maintain a 3.0 minimum cumulative GPA; be classified as a junior or senior in a major within the College of Business Administration; actively serve the UNO community by doing volunteer work with a local nonprofit (i.e. United Way, American Cancer Society, Leukemia & Lymphoma Society, etc.). <br> Scholarship recipients will be selected by the University appointed scholarship selection committee prior to the beginning of the Fall semester based upon the applications received and funding available
+                    The amount of the award is $625/semester for Fall and Spring, for a total of $1250/year, provided the endowment spending allocation is available. Recipients will acknowledge receipt of the scholarship by writing a letter of thanks to the donor.
+                     </p>
+                </article>
+            </div>
+            <div>
+                <input id="end-19" type="checkbox">
+                <label for="end-19">Twenty First Century Endowed Scholarship</label>
+                <article>
+                    <p class="dep">[no department]</p>
+                    <p class="ref">#80841</p>
+                    <p>    Student must be an incoming freshman or continuing student enrolled at the University who has not yet earned a bachelor's degree; must demonstrate unmet financial need as determined by the Office of Financial Aid Scholarship awards will only be made after the Endowment Fund spending account has reached a minimum available balance of $4,000.00
+                     </p>
+                </article>
+            </div>
+            <div>
+                <input id="end-20" type="checkbox">
+                <label for="end-20">Joseph Patrick Uddo Scholarship in Screenwriting</label>
+                <article>
+                    <p class="dep">Film, Theater, and Communication Arts</p>
+                    <p class="ref">#80843</p>
+                    <p>    Student must be admitted into the screenwriting program in the Creative Writing Workshop, which requires students to submit a feature length film screenplay; must meet basic admissions requirement to the program and must remain in good standing during the period of award. Applicant's GPA shall not be considered in the selection process: selection is to be based upon overall quality and creativity of the screenplay submitted.
+                    Amount is $750/semester for Fall and Spring, for a total of $1,500/year, provided the student remains in good standing with the university
+                     </p>
+                </article>
+            </div>
+            <div>
+                <input id="end-21" type="checkbox">
+                <label for="end-21">Jim and Sonia Miller Scholarship in Chemistry</label>
+                <article>
+                    <p class="dep">Chemistry</p>
+                    <p class="ref">#80844</p>
+                    <p>[ no criteria ]</p>
+                </article>
+            </div>
+            <div>
+                <input id="end-22" type="checkbox">
+                <label for="end-22">Glenn Hebert Coastal and Environmental Sciences Endowed Scholarship Fund</label>
+                <article>
+                    <p class="dep">Earth and Environmental Sciences</p>
+                    <p class="ref">#80845</p>
+                    <p>Donor desires 2 awards per year to students with minimum overall GPA of 3.0 who meet requirements Set by University's Scholarship committee.</p>
+                </article>
+            </div>
+            <div>
+                <input id="end-23" type="checkbox">
+                <label for="end-23">Toussaint Hocevar Endowed Scholarship</label>
+                <article>
+                    <p class="dep">Economics and Finance</p>
+                    <p class="ref">#80846</p>
+                    <p>Endowed scholarship fund to support undergraduate students in the Economics and Finance program at UNO</p>
+                </article>
+            </div>
+            <div>
+                <input id="end-24" type="checkbox">
+                <label for="end-24">Storms-Mt. Carmel Endowed Scholarships</label>
+                <article>
+                    <p class="dep">UNO Foundation</p>
+                    <p class="ref">#80847</p>
+                    <p>This scholarship is designated to a student within the University of New Orleans, COEHD. This scholarship is designated to benefit educators at Brother Martin High School who are in pursuit of a degree or continuing education credit. Brother Martin teachers who are on TTA(Temporary Teaching Assignment) must earn 6 hours of coursework toward teacher certification in one year, 12 hours in 12 years. The scholarship will benefit teachers who are strongly encouraged to work toward certification/advanced degree and also considering work outside their main area to meet the needs of the school.</p>
+                </article>
+            </div>
+            <div>
+                <input id="end-25" type="checkbox">
+                <label for="end-25">Carl E. Muckley First Generation Scholarship in History</label>
+                <article>
+                    <p class="dep">History Department</p>
+                    <p class="ref">#80849</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="end-26" type="checkbox">
+                <label for="end-26">Gordon Scholarship in Brass</label>
+                <article>
+                    <p class="dep">Jazz Studies</p>
+                    <p class="ref">#80852</p>
+                    <p>Student plays brass instrument, is in good academic standing.</p>
+                    <p>Renewable for 8 semesters. Selection by Jazz Faculty Committee based on student’s musical proficiency (not financial aid).</p>
+                </article>
+            </div>
+            <div>
+                <input id="end-27" type="checkbox">
+                <label for="end-27">The New Orleans Tourism Scholarship</label>
+                <article>
+                    <p class="dep">Kabacoff School of Hotel, Restaurant, and Tourism Administration</p>
+                    <p class="ref">#80853</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="end-28" type="checkbox">
+                <label for="end-28">Stanley W. Ray, Jr. Endowed Scholarship</label>
+                <article>
+                    <p class="dep">Basketball</p>
+                    <p class="ref">#80863</p>
+                    <p>Eligibility:</p>
+                    <ul>
+                        <li>Graduate of a Louisiana high School</li>
+                        <li>Must meet basic admission requirements, maintain full-time hours and remain in good standing during the period of the award</li>
+                        <li>Must complete and submit FAFSA before enrollment</li>
+                    </ul>
+                    <p>Special consideration will be given to students:</p>
+                    <ul>
+                        <li>Whose parent/parents are deceased</li>
+                        <li>Who are on one of UNO’s basketball teams</li>
+                        <li>Who are majoring in Naval Architecture and Marine Engineering</li>
+                        <li>Plan to stay and work in Louisiana after graduation</li>
+                    </ul>
+                </article>
+            </div>
+            <div>
+                <input id="end-29" type="checkbox">
+                <label for="end-29">Mr. and Mrs. Thomas M. Kitchen Endowed Scholarship(BOR First Gen)</label>
+                <article>
+                    <p class="dep">Financial Aid and Scholarships</p>
+                    <p class="ref">#80864</p>
+                    <p>For Louisiana residents who are both first-generation college students and Pell Grant recipients.</p>
+                </article>
+            </div>
+            <div>
+                <input id="end-30" type="checkbox">
+                <label for="end-30">George Brumat Memorial Jazz Scholarship</label>
+                <article>
+                    <p class="dep">Music</p>
+                    <p class="ref">#80867</p>
+                    <p>Proceeds from this fund are to be used for annual scholarships for Jazz Studies students:</p>
+                    <ul>
+                        <li>At least one award should be made annually</li>
+                        <li>The number and value of the awards may vary depending on annual earnings</li>
+                        <li>Members of the Jazz Studies program faculty will select recipients</li>
+                        <li>There are no specific eligibility requirements other than the recipient be a Jazz Studies student; ideally, in the spirit of George Brumat, the recipient would demonstrate a commitment to contemporary jazz and to the larger musical community</li>
+                        <li>The award should be publically presented to the student at Jazz at the Sandbar or other appropriate performance or awards setting</li>
+                    </ul>
+                </article>
+            </div>
+            <div>
+                <input id="end-31" type="checkbox">
+                <label for="end-31">Stanley P. Leibo Memorial Award in Cell and Developmental Biology</label>
+                <article>
+                    <p class="dep">Biological Sciences</p>
+                    <p class="ref">#80868</p>
+                    <p>For outstanding students in Cell and Developmental biology.</p>
+                </article>
+            </div>
+            <div>
+                <input id="end-32" type="checkbox">
+                <label for="end-32">Dean Russell E. Trahan Engineering Award</label>
+                <article>
+                    <p class="dep">College of Engineering</p>
+                    <p class="ref">#80870</p>
+                    <p>[Criteria to be determined by Department of Accounting in accordance with donor's request]</p>
+                </article>
+            </div>
+            <div>
+                <input id="end-33" type="checkbox">
+                <label for="end-33">Charles and Karen Coe Technology Scholarship</label>
+                <article>
+                    <p class="dep">Accounting</p>
+                    <p class="ref">#80872</p>
+                    <p>[Criteria to be determined by Department of Accounting in accordance with donor's request]</p>
+                </article>
+            </div>
+            <div>
+                <input id="end-34" type="checkbox">
+                <label for="end-34">Joseph McCullough Alarcon Scholarship</label>
+                <article>
+                    <p class="dep">College of Business Administration</p>
+                    <p class="ref">#80873</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="end-35" type="checkbox">
+                <label for="end-35">The Robert W. Merrick First Generation Scholarship</label>
+                <article>
+                    <p class="dep">Student Financial Aid and Scholarship</p>
+                    <p class="ref">#80874</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="end-36" type="checkbox">
+                <label for="end-36">The Lori A. and Peter J. Fos Scholarship</label>
+                <article>
+                    <p class="dep">College of Education</p>
+                    <p class="ref">#80875</p>
+                    <p>Full-time female undergraduate students in education with priority given to student athletes.</p>
+                </article>
+            </div>
+            <div>
+                <input id="end-37" type="checkbox">
+                <label for="end-37">Center Austria Scholarship Fund</label>
+                <article>
+                    <p class="dep">College of Liberal Arts</p>
+                    <p class="ref">#80877</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="end-38" type="checkbox">
+                <label for="end-38">President Peter Fos First Generation Scholarship</label>
+                <article>
+                    <p class="dep">Office of Advancement</p>
+                    <p class="ref">#80881</p>
+                    <p>For Louisiana residents, Pell Grant recipients, whose parents/guardians have not earned college degree.</p>
+                </article>
+            </div>
+            <div>
+                <input id="end-39" type="checkbox">
+                <label for="end-39">Schroeder Family Accounting Scholarship</label>
+                <article>
+                    <p class="dep">College of Business Administration</p>
+                    <p class="ref">#80882</p>
+                    <p>For accounting majors enrolled full-time with minimum cumulative GPA of 3.0</p>
+                </article>
+            </div>
+            <div>
+                <input id="end-40" type="checkbox">
+                <label for="end-40">UNO International Alumni Association First Generation Scholarship</label>
+                <article>
+                    <p class="dep">[no department]</p>
+                    <p class="ref">#80883</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+        </section>
+        <section id="restricted">
+            <h2>Restricted</h2>
+            <div>
+                <input id="res-1" type="checkbox">
+                <label for="res-1">Elbert Shamburger Scholarship</label>
+                <article>
+                    <p class="dep">UNO Foundation Administration</p>
+                    <p class="ref">#90207</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-2" type="checkbox">
+                <label for="res-2">25" Anniversary Alumni Scholarship</label>
+                <article>
+                    <p class="dep">UNO Foundation Administration</p>
+                    <p class="ref">#90212</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-3" type="checkbox">
+                <label for="res-3">HRT Hospitality Scholarship</label>
+                <article>
+                    <p class="dep">School of HRT</p>
+                    <p class="ref">#90213</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-4" type="checkbox">
+                <label for="res-4">Polly Theriot Baudean Memorial Scholarship</label>
+                <article>
+                    <p class="dep">English and Communications</p>
+                    <p class="ref">#90214</p>
+                    <ul>
+                        <li>Provides tuition and book expense support to eligible freshman student applicants who intend to major in either communications or English and who graduated from Higgins or other West Bank Jefferson Parish public high schools</li>
+                        <li>Potential recipient(s) shall have maintained 3.0 GPA in high school and score at least 25 composite on the ACT</li>
+                        <li>Recipients selected by the dean of COLA</li>
+                    </ul>
+                </article>
+            </div>
+            <div>
+                <input id="res-5" type="checkbox">
+                <label for="res-5">Ulani G. Kern Memorial Scholarship</label>
+                <article>
+                    <p class="dep">Chemistry</p>
+                    <p class="ref">#90218</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-6" type="checkbox">
+                <label for="res-6">Terri Rubin Scholarship Fund</label>
+                <article>
+                    <p class="dep">School of Hotel, Restaurant, and Tourism Administration</p>
+                    <p class="ref">#90239</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-7" type="checkbox">
+                <label for="res-7">Jules Braunstein Memorial</label>
+                <article>
+                    <p class="dep">UNO Foundation Administration</p>
+                    <p class="ref">#90244</p>
+                    <p>Scholarship to be awarded to a student in the Department of Accounting; if it scholarship cannot be applied to a student in the Dept. of Accounting, the university may use the scholarship for any purpose that the Chancellor believes will most nearly accomplish the wishes and purpose in which the scholarship was created.</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-8" type="checkbox">
+                <label for="res-8">Minority Scholarships</label>
+                <article>
+                    <p class="dep">Academic Affairs</p>
+                    <p class="ref">#90250</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-9" type="checkbox">
+                <label for="res-9">Cheerleader Scholarship</label>
+                <article>
+                    <p class="dep">Athletics</p>
+                    <p class="ref">#90259</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-10" type="checkbox">
+                <label for="res-10">Women Council Realtor Scholar</label>
+                <article>
+                    <p class="dep">College of Business Administration</p>
+                    <p class="ref">#90332</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-11" type="checkbox">
+                <label for="res-11">John E. and Marie Altazan Scholarship</label>
+                <article>
+                    <p class="dep">College of Science</p>
+                    <p class="ref">#90337</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-12" type="checkbox">
+                <label for="res-12">Alumni Anita Evans Scholarship</label>
+                <article>
+                    <p class="dep">Alumni Affairs</p>
+                    <p class="ref">#90348</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-13" type="checkbox">
+                <label for="res-13">Geneva Henig Memorial</label>
+                <article>
+                    <p class="dep">College of Science</p>
+                    <p class="ref">#90355</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-14" type="checkbox">
+                <label for="res-14">Schexnayder Memorial Fund</label>
+                <article>
+                    <p class="dep">Student Life</p>
+                    <p class="ref">#90373</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-15" type="checkbox">
+                <label for="res-15">Paul H. Morphy Jr. Memorial Fund</label>
+                <article>
+                    <p class="dep">UNO Foundation Administration</p>
+                    <p class="ref">#90379</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-16" type="checkbox">
+                <label for="res-16">Gary W. Griffin Memoria</label>
+                <article>
+                    <p class="dep">College of Science</p>
+                    <p class="ref">#90391</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-17" type="checkbox">
+                <label for="res-17">Founding Dean’s Award</label>
+                <article>
+                    <p class="dep">Mechanical Engineering Miscellaneous</p>
+                    <p class="ref">#90393</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-18" type="checkbox">
+                <label for="res-18">Amoco Minority Undergraduate</label>
+                <article>
+                    <p class="dep">College of Science</p>
+                    <p class="ref">#90395</p>
+                    <p>Requirements:</p>
+                    <ul>
+                        <li>Pursuing of a degree in Geology or Geophysics</li>
+                        <li>Member of a minority group: Hispanic American, Asian American, African American, Native American, or a female of any ethnic background</li>
+                        <li>Financial need</li>
+                        <li>In general, a GPA of 2.5/4.0 or higher ACT/SAT scores that predict attainment of such GPA. Candidate with lower GPA's will be considered under special circumstances.</li>
+                    </ul>
+                </article>
+            </div>
+            <div>
+                <input id="res-19" type="checkbox">
+                <label for="res-19">Joan Sherman Scholarship</label>
+                <article>
+                    <p class="dep">College of Business Administration</p>
+                    <p class="ref">#90402</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-20" type="checkbox">
+                <label for="res-20">Joan Sherman Scholarship</label>
+                <article>
+                    <p class="dep">College of Liberal Arts</p>
+                    <p class="ref">#90403</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-21" type="checkbox">
+                <label for="res-21">The Quarante Prize</label>
+                <article>
+                    <p class="dep">English</p>
+                    <p class="ref">#90419</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-22" type="checkbox">
+                <label for="res-23">Howard E. Evans Memorial Scholarship</label>
+                <article>
+                    <p class="dep">College of Science</p>
+                    <p class="ref">#90432</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-23" type="checkbox">
+                <label for="res-23">Raeburn Miller Memorial</label>
+                <article>
+                    <p class="dep">College of Liberal Arts</p>
+                    <p class="ref">#90448</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-24" type="checkbox">
+                <label for="res-24">Women's Business Owners Association</label>
+                <article>
+                    <p class="dep">Academic Affairs</p>
+                    <p class="ref">#90459</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-25" type="checkbox">
+                <label for="res-25">Benjamin Sherman Scholarship</label>
+                <article>
+                    <p class="dep">College of Business Administration</p>
+                    <p class="ref">#90460</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-26" type="checkbox">
+                <label for="res-26">Nedra Griffin Memorial</label>
+                <article>
+                    <p class="dep">Academic Affairs</p>
+                    <p class="ref">#90474</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-27" type="checkbox">
+                <label for="res-27">Shirley H. Engle Memorial Fund</label>
+                <article>
+                    <p class="dep">College of Education and Human Development</p>
+                    <p class="ref">#90482</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-28" type="checkbox">
+                <label for="res-28">Cresap S. Watson Memorial Scholarship</label>
+                <article>
+                    <p class="dep">Kabacoff School of Hotel, Restaurant, and Tourism Administration</p>
+                    <p class="ref">#90483</p>
+                    <p>The Scholarship will be awarded to a teacher enrolled in the Greater New Orleans Writing Project to cover tuition and books.</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-29" type="checkbox">
+                <label for="res-29">Dr. John L. Fluitt Memorial Fund</label>
+                <article>
+                    <p class="dep">Academic Affairs</p>
+                    <p class="ref">#90489</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-30" type="checkbox">
+                <label for="res-30">Michael J. Malony III Memorial Fund</label>
+                <article>
+                    <p class="dep">UNO Foundation Administration</p>
+                    <p class="ref">#90490</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-31" type="checkbox">
+                <label for="res-31">Ethel Crumb Brett Scholarship</label>
+                <article>
+                    <p class="dep">College of Liberal Arts</p>
+                    <p class="ref">#90506</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-32" type="checkbox">
+                <label for="res-32">Norton Nelkin Philosophy Scholarship</label>
+                <article>
+                    <p class="dep">Philosophy</p>
+                    <p class="ref">#90507</p>
+                    <p>For outstanding students in Cell and Developmental biology.</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-33" type="checkbox">
+                <label for="res-33">Oliver Karl Lion Jr. Scholarship</label>
+                <article>
+                    <p class="dep">College of Business Administration</p>
+                    <p class="ref">#90517</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-34" type="checkbox">
+                <label for="res-34">Kristian P. Preston Memorial Fund</label>
+                <article>
+                    <p class="dep">College of Liberal Arts</p>
+                    <p class="ref">#90539</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-35" type="checkbox">
+                <label for="res-35">Amarinys Liriano Contraras Memorial Fund</label>
+                <article>
+                    <p class="dep">College of Science</p>
+                    <p class="ref">#90540</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-36" type="checkbox">
+                <label for="res-36">Jazz Studies Scholarship Fund</label>
+                <article>
+                    <p class="dep">Music</p>
+                    <p class="ref">#90552</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-72" type="checkbox">
+                <label for="res-72">James W. Ellis Momorial Scholarship</label>
+                <article>
+                    <p class="dep">College of Science</p>
+                    <p class="ref">#90554</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-37" type="checkbox">
+                <label for="res-37">Center Austria Scholarship Fund</label>
+                <article>
+                    <p class="dep">College of Science</p>
+                    <p class="ref">#90559</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-38" type="checkbox">
+                <label for="res-38">Boasso-America Corp Scholarship</label>
+                <article>
+                    <p class="dep">College of Business Administration</p>
+                    <p class="ref">#90583</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-39" type="checkbox">
+                <label for="res-39">Schroeder Family Accounting Scholarship</label>
+                <article>
+                    <p class="dep">College of Liberal Arts</p>
+                    <p class="ref">#90588</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-40" type="checkbox">
+                <label for="res-40">Freeport McMoran Indonesian Scholarship</label>
+                <article>
+                    <p class="dep">Office of Admission</p>
+                    <p class="ref">#90619</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-41" type="checkbox">
+                <label for="res-41">Exxon Minority Geoscience Support</label>
+                <article>
+                    <p class="dep">Earth and Environmental Sciences</p>
+                    <p class="ref">#90620</p>
+                    <p>Funds to support general field program expenses associated with UNO's Geoscience Minority Program</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-42" type="checkbox">
+                <label for="res-42">Bob and Mary Washington Memorial Fund</label>
+                <article>
+                    <p class="dep">UNO Foundation Administration</p>
+                    <p class="ref">#90686</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-43" type="checkbox">
+                <label for="res-43">Chinese Student Scholarship Fund</label>
+                <article>
+                    <p class="dep">UNO Foundation Administration</p>
+                    <p class="ref">#90690</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-44" type="checkbox">
+                <label for="res-44">Don Hood Acting Scholarship</label>
+                <article>
+                    <p class="dep">College of Liberal Arts</p>
+                    <p class="ref">#90755</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-45" type="checkbox">
+                <label for="res-45">Geoscience Minority Fund</label>
+                <article>
+                    <p class="dep">College of Science</p>
+                    <p class="ref">#90769</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-46" type="checkbox">
+                <label for="res-46">UNO Foundation Scholarship</label>
+                <article>
+                    <p class="dep">Office of Advancement</p>
+                    <p class="ref">#90781</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-47" type="checkbox">
+                <label for="res-47">Bill J. Good Award</label>
+                <article>
+                    <p class="dep">College of Science</p>
+                    <p class="ref">#90782</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-48" type="checkbox">
+                <label for="res-48">UNO Earth & Environmental Sciences Student Recovery Fund</label>
+                <article>
+                    <p class="dep">Earth and Environmental Sciences</p>
+                    <p class="ref">#90789</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-49" type="checkbox">
+                <label for="res-49">G.Majeau, C. de Ben, J. Ashton Majeau Education Scholars</label>
+                <article>
+                    <p class="dep">College of Education and Human Development</p>
+                    <p class="ref">#90791</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-50" type="checkbox">
+                <label for="res-50">James B. Whitlow Awards-Outstanding Achievement in French</label>
+                <article>
+                    <p class="dep">College of Liberal Arts</p>
+                    <p class="ref">#90793</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-51" type="checkbox">
+                <label for="res-51">NOGS-New Orleans Geological Society</label>
+                <article>
+                    <p class="dep">College of Science</p>
+                    <p class="ref">#90795</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-52" type="checkbox">
+                <label for="res-52">Hospitality Financial and Tech Prof Scholarship Fund</label>
+                <article>
+                    <p class="dep">College of Business Administration Department</p>
+                    <p class="ref">#90822</p>
+                    <p>Scholarship to be awarded to Master of Science in Hospitality & Tourism Management</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-53" type="checkbox">
+                <label for="res-53">Majority by IRV Scholarship</label>
+                <article>
+                    <p class="dep">Office of Advancement</p>
+                    <p class="ref">#90830</p>
+                    <p>This was set up by Mr. Stuart Dixon who will be working with HS Principals who will select students to be awarded $500 awards.</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-54" type="checkbox">
+                <label for="res-54">50" Anniversary Restricted Scholarship Fund</label>
+                <article>
+                    <p class="dep">Office of Advancement</p>
+                    <p class="ref">#90834</p>
+                    <ul>
+                        <li>The recipient should be a second semester female senior (i.e. one that is close to graduation) in UNO's College of Education).</li>
+                        <li>The recipient should be scholarly-that is, this will not be a need-based scholarship, rather the scholarship will be based on academics.</li>
+                        <li>The recipient should show a genuine interest in education and teaching. It is preferred that the recipient be involved in some type of community service. However, Community Service or involvement is to be constructed broadly to include a wide variety of activities. It does not have to be community service in the traditional sense as it may be difficult for a working parent to be involved in the traditional types of community Service. For example, Community involvement can cover activities such as serving on their child's PTA. It is preferred that the recipient be planning to teach in the Metropolitan New Orleans are after graduation.</li>
+                    </ul>
+                </article>
+            </div>
+            <div>
+                <input id="res-55" type="checkbox">
+                <label for="res-55">Nims - FTCA. Thesis Scholarship</label>
+                <article>
+                    <p class="dep">Film, Theater, and Communication Arts</p>
+                    <p class="ref">#90844</p>
+                    <ul>
+                        <li>Awarded annually to a UNO MFA candidate, selected by the FTCA faculty who has successfully achieved all requirements for the MFA degree in Film Arts and is ready to pursue the thesis project during the third year of graduate study.</li>
+                        <li>Awarded for the sole purpose of Supporting the production of the selected student's thesis film...will include a cash grant/stipend of $10,000 to be drawn down under the guidance of the thesis director for film production and may be combined with additional awards and Scholarships.</li>
+                        <li>An additional $1000 will be provided annually by the fellowship to underwrite entry fees for completed films in selected regional and national film festivals.</li>
+                    </ul>
+                </article>
+            </div>
+            <div>
+                <input id="res-56" type="checkbox">
+                <label for="res-56">LeBlanc Scholarship</label>
+                <article>
+                    <p class="dep">Dean’s Office</p>
+                    <p class="ref">#90848</p>
+                    <p>Scholarship established by Barry and Teresa LeBlanc (UNO Alumni) with the purpose to financially assistant UNO student.</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-57" type="checkbox">
+                <label for="res-57">GNO Writing Project</label>
+                <article>
+                    <p class="dep">English</p>
+                    <p class="ref">#90859</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-58" type="checkbox">
+                <label for="res-58">Carl E. Muckley Estate</label>
+                <article>
+                    <p class="dep">Philosophy</p>
+                    <p class="ref">#90869</p>
+                    <p>Tuition and books shaff be awarded for the junior and senior years of each outstanding major in Philosophy who has achieved, and maintains a minimum 3.00 GPA.</p>
+                    <p>Each year an outstanding incoming freshman philosophy major shall be awarded a scholarship for tuition and books for up to four years, renewable so long as the student remains in good standing in the University and maintains a major in philosophy with a minimum 3.00 GPA.</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-59" type="checkbox">
+                <label for="res-59">Theodore Mettlach Scholarship Fund</label>
+                <article>
+                    <p class="dep">UNO Foundation</p>
+                    <p class="ref">#90874</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-60" type="checkbox">
+                <label for="res-60">President's Discretionary Fund</label>
+                <article>
+                    <p class="dep">Office of the President</p>
+                    <p class="ref">#90878</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-61" type="checkbox">
+                <label for="res-61">Philosophy Scholarships & Awards</label>
+                <article>
+                    <p class="dep">Philosophy</p>
+                    <p class="ref">#90888</p>
+                    <p>Tuition and books shall be awarded for the junior and senior years of each outstanding major in Philosophy who has achieved, and maintains a minimum 3.00 GPA.</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-62" type="checkbox">
+                <label for="res-62">ED VET Scholarship Program</label>
+                <article>
+                    <p class="dep">Enrollment Management</p>
+                    <p class="ref">#90891</p>
+                    <p>Scholarship award for 4 years to supplement Veteran’s post 911 GI Bill benefits to attend UNO</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-63" type="checkbox">
+                <label for="res-63">Mark C. Lundberg Scholarship</label>
+                <article>
+                    <p class="dep">College of Business Administration</p>
+                    <p class="ref">#90892</p>
+                    <p>The Marc C. Lundberg Scholarship is a $1,000 scholarship that is awarded each fall to a full-time undergraduate student in the College of Business Administration.</p>
+                    <ul>
+                        <li>The recipient of the scholarship must have completed a minimum of 60 credit hours with a grade point average of at least 3.0.</li>
+                        <li>The recipient must be a Louisiana resident and must be Pell Grant eligible.</li>
+                        <li>The deadline to apply for the 2013 Marc C. Lundberg Scholarship is June 15th, 2013.</li>
+                        <li>The 2013 Marc C. Lundberg Scholarship winner will be announced on or before July 1st, 2013.</li>
+                        <li>To apply, submit the attached application form along with a 500-word essay describing your aspirations after College.</li>
+                    </ul>
+                </article>
+            </div>
+            <div>
+                <input id="res-64" type="checkbox">
+                <label for="res-64">Jim & Sonia Miller Scholarship. In Chemistry</label>
+                <article>
+                    <p class="dep">Chemistry</p>
+                    <p class="ref">#90897</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-65" type="checkbox">
+                <label for="res-65">Ryan Chighizola Memorial Scholarship</label>
+                <article>
+                    <p class="dep">English</p>
+                    <p class="ref">#90900</p>
+                    <p>Students are nominated by faculty to be chosen for a $1000 award. Nominated students may submit up to five poems for consideration.</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-66" type="checkbox">
+                <label for="res-66">COEHD 50 for 50</label>
+                <article>
+                    <p class="dep">College of Education and Human Development</p>
+                    <p class="ref">#90903</p>
+                    <p>To house donations for COEHD’s 50 for 50 initiative</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-67" type="checkbox">
+                <label for="res-67">Christensen Scholarships</label>
+                <article>
+                    <p class="dep">Chemistry</p>
+                    <p class="ref">#90911</p>
+                    <p>Detail Description (from Account Set-up form): Donor provided funds for 5 scholarships at $5k each for students pursuing their first degree as a B.S. in Chemistry.</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-68" type="checkbox">
+                <label for="res-68">Stanley P. Leibo Memorial Award in Cell & Development Bio</label>
+                <article>
+                    <p class="dep">Biological Sciences</p>
+                    <p class="ref">#90914</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-69" type="checkbox">
+                <label for="res-69">IDS Scholarship/Awards</label>
+                <article>
+                    <p class="dep">Academic Affairs/Interdisciplinary Studies</p>
+                    <p class="ref">#90916</p>
+                    <p>Money donated will be used for honors convocation awards and student Scholarships.</p>
+                </article>
+            </div><div>
+                <input id="res-70" type="checkbox">
+                <label for="res-70">Omicron Delta Kappa Scholarship Account</label>
+                <article>
+                    <p class="dep">Omicron Delta Kappa Leadership and Honor Society</p>
+                    <p class="ref">#90917</p>
+                    <p>The Honor Society, Omicron Delta Kappa, will be fundraising throughout the year with the hope O of giving out an annual Scholarship to a student.</p>
+                </article>
+            </div>
+            <div>
+                <input id="res-71" type="checkbox">
+                <label for="res-71">William Carl and Catherine C. Wagner Scholarship</label>
+                <article>
+                    <p class="dep">Academic Affairs</p>
+                    <p class="ref">#90929</p>
+                    <p>[no criteria]</p>
+                </article>
+            </div>
+        </section>
+    </div>
+    <!-- style of the accordian -->
+    <style>
+    </style>
+    <!-- script to handle the two buttons -->
+	<script src="scholarship.js"></script>
+    <!-- end of deploy code -->
+</body>
+</html>
