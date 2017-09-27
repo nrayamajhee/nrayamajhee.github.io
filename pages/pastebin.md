@@ -1,7 +1,7 @@
 ---
 layout: default
-permalink: /404.html
-title: Oops!
+permalink: /messageboard.html
+title: Copy Me!
 ---
 
 http://linuxgazette.net/156/jangir.html
