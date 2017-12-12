@@ -13,7 +13,7 @@ Hello! I am Nishan Rayamajhee.
 I love to design and <a href="https://people.eecs.berkeley.edu/~bh/hacker.html" onclick="location.href='https://stallman.org/articles/on-hacking.html';" target="_blank">hack</a> things when I am not slacking or hanging out at some lousy party.
 I am from Nepal and I currently go to school here at [University of New Orleans](http://www.uno.edu).
 
-Here's my [resume](/files/Resumev2.pdf).
+Here's my [resume](/files/Resume.pdf).
 
 You can follow/contact me at:
 
