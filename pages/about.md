@@ -15,6 +15,8 @@ I am from Nepal and I currently go to school here at [University of New Orleans]
 
 Here's my [resume](/files/Resume.pdf).
 
+Play my homework [Moordenaar]({{ site.url }}/Moordenaar/) 
+
 You can follow/contact me at:
 
 - twitter: [{{ site.username }}](https://twitter.com/{{ site.username }})
