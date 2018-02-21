@@ -17,7 +17,7 @@ Here's my [resume](/files/Resume.pdf).
 
 Play my homework [Moordenaar]({{ site.url }}/Moordenaar/)!
 
-If you're looking for the other Rayamajhee, go to (veeshan.rayamajhee)[http://veeshan.rayamajhee.com].
+If you're looking for the other Rayamajhee, go to [veeshan.rayamajhee](http://veeshan.rayamajhee.com).
 
 You can follow/contact me at:
 
