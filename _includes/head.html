@@ -5,6 +5,9 @@
 
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
 
+	{% if site.google_analytics and jekyll.environment == 'production' %}
+	{% include analytics.html %}
+	{% endif %}
     <script src="/js/main.js"></script>
     <link rel="stylesheet" href="/css/main.css">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
