@@ -15,13 +15,14 @@ I am from Nepal and I currently go to school here at [University of New Orleans]
 
 Here's my [resume](/files/Resume.pdf).
 
-Play my homework [Moordenaar]({{ site.url }}/Moordenaar/)!
-
-If you're looking for the other Rayamajhee, go to [veeshan.rayamajhee](http://veeshan.rayamajhee.com).
+Play my homeworks:
+- [Moordenaar]({{ site.url }}/Moordenaar/)
+- [Dragon Attack](https://play.google.com/store/apps/details?id=com.rayamajhee.nishan.helloworld)
 
 You can follow/contact me at:
 
 - twitter: [{{ site.username }}](https://twitter.com/{{ site.username }})
 - github: [{{ site.username }}](https://github.com/{{ site.username }})
 - instagram: [{{ site.username }}](https://instagram.com/{{ site.username }})
-- email: <{{ site.email }}>
+
+If you're looking for the other Rayamajhee, go to [veeshan.rayamajhee](http://veeshan.rayamajhee.com).

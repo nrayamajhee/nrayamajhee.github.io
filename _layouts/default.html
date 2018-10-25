@@ -7,11 +7,14 @@
 
     <page-content>
       <wrapper>
-        <button id="toggle-theme" onclick="toggleTheme()"></button>
+  {% include theme-toggle.html %}
+  		<content>
         {{ content }}
+       	</content>
+       	
+  {% include footer.html %}
       </wrapper>
     </page-content>
-    
   </body>
 
 </html>

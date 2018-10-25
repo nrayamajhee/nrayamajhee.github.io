@@ -9,14 +9,27 @@ body {
   outline: 1px dotted $brand-color;
 }
 h1, p, ul {
-    margin: $base-line-height * $base-font-size 0;
+    margin-bottom: $base-line-height * $base-font-size;
+}
+p {
+	margin-top: 0;
+}
+h1, h2 {
+    font-weight: 300;	
+    margin-top: $spacing-unit;
 }
 h1 {
-    font-weight: 300;
+    font-family: $screen-font-family;
     font-size: 2em;
+}
+h2 {
+    font-size: 1.5em;
 }
 ul {
     padding-left: 2 * $spacing-unit;
+}
+ol li, ul li {
+	margin-bottom: 0.8rem;
 }
 a {
     color: $link-color;
@@ -29,6 +42,10 @@ a {
     &:visited {
         color: darken($link-color, 10%);
     }
+}
+a.mark {
+	font-family: $fancy-font-family;
+	font-weight: bold;
 }
 body.dark-theme {
     color: $background-color;
