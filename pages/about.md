@@ -23,6 +23,7 @@ You can follow/contact me at:
 
 - twitter: [{{ site.username }}](https://twitter.com/{{ site.username }})
 - github: [{{ site.username }}](https://github.com/{{ site.username }})
+- gitlab: [{{ site.username }}](https://gitlab.com/{{ site.username }})
 - instagram: [{{ site.username }}](https://instagram.com/{{ site.username }})
 
 If you're looking for the other Rayamajhee, go to [veeshan.rayamajhee](http://veeshan.rayamajhee.com).
