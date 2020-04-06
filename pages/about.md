@@ -2,10 +2,8 @@
 layout: default
 permalink: /
 title: About Me
+navbar-index: 0
 ---
-
-Nishan Rayamajhee
-=================
 
 {{ site.description }}
 
@@ -19,10 +17,13 @@ Play my homeworks:
 - [Moordenaar]({{ site.url }}/Moordenaar/)
 - [Dragon Attack](https://play.google.com/store/apps/details?id=com.rayamajhee.nishan.helloworld)
 
+Also checkout my projects [here]({{site.url}}/projects).
+
 You can follow/contact me at:
 
 - twitter: [{{ site.username }}](https://twitter.com/{{ site.username }})
 - github: [{{ site.username }}](https://github.com/{{ site.username }})
+- gitlab: [{{ site.username }}](https://gitlab.com/{{ site.username }})
 - instagram: [{{ site.username }}](https://instagram.com/{{ site.username }})
 
 If you're looking for the other Rayamajhee, go to [veeshan.rayamajhee](http://veeshan.rayamajhee.com).

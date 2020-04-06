@@ -1,82 +1,54 @@
-// "Moles hate bright colours!" was ripped off from libsdl's homepage. Sorry about that!
+function setTheme(theme) {
+    const icon = document.querySelector("button#toggle-theme i");
+    if (theme == "dark") {
+        icon.innerHTML = "brightness_2";
+        document.body.classList.add("dark-theme");
+        localStorage.setItem("theme", "dark");
+    } else if (theme == "light") {
+        icon.innerHTML = "brightness_low";
+        document.body.classList.remove("dark-theme");
+        localStorage.setItem("theme", "light");
+    } else {
+        const hours = (new Date()).getHours();
+        if (hours > 7 && hours < 19) {
+            setTheme("light");
+        } else {
+            setTheme("dark");
+        }
+        icon.innerHTML = "brightness_auto";
+        localStorage.setItem("theme", "auto");
+    }
+}
 
-// Delay inorder to prevent css animation from light to dark theme while loading the website
-let skipAnimation = 400;
-
-// Local storage for storing theme preference
-let myLocalStorage = localStorage;
-
-let ul;
-let wrap;
-let auto;
-
-function init() {
-    ul = document.querySelector('nav');
-    wrap = document.querySelector('page-content wrapper');
-    auto = document.querySelector('#auto-theme');
-    let darkTheme = myLocalStorage.getItem("Theme-Dark");
-    let manualTheme = myLocalStorage.getItem("Theme-Manual");
-
-    console.log(manualTheme + ' and ' + darkTheme);
-    
-    // If there's any value in local storage "Theme-Manual"
-    if(manualTheme == null)
-        autoTheme();
-
-    // If there's any value in local storage "Theme-Dark"
-    if (darkTheme!=null && darkTheme.length > 1 )
-        setDarkTheme();
-    
-    // Delay before adding class "animate" to body
-    setTimeout(function() {
+window.addEventListener("DOMContentLoaded", () => {
+    setTimeout(() => {
         document.body.classList.add("animate");
-    }, skipAnimation);
+    }, 400);
 
-}
-
-function toggleTheme()
-{    
-    if(document.body.classList.contains("dark-theme"))
-        setLightTheme()
-    else
-        setDarkTheme()
-}
-
-function toggleMenu() {
-    if(ul.classList.contains("shown")){
-        ul.classList.remove("shown");
-        wrap.classList.remove("blur");
-    } else {
-        ul.classList.add("shown");
-        wrap.classList.add("blur");
+    const stored = localStorage.getItem("theme");
+    if (stored) {
+		console.log('stored', stored);
+        setTheme(stored);
+    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        setTheme('dark');
     }
-}
-
-function setLightTheme() {
-    document.body.classList.remove("dark-theme");
-    myLocalStorage.removeItem("Theme-Dark");
-}
-
-function autoTheme() {
-    // console.log("Automatically set ")
-    let hours = (new Date()).getHours();
-    if (hours > 7 && hours < 21) {
-        setLightTheme();
-    } else  {
-        setDarkTheme();
-    }
-    if(auto.classList.contains("activated")) {
-        auto.classList.remove("activated");
-        myLocalStorage.setItem("Theme-Manual", "Doesn't like automatic!");
-    } else {
-        auto.classList.add("activated");
-        myLocalStorage.removeItem("Theme-Manual");
-    }
-}
-
-function setDarkTheme() {
-    document.body.classList.add("dark-theme");
-    myLocalStorage.setItem("Theme-Dark", "Hates bright colours!");
-}
-
-window.onload = init;
+    document.querySelector("button#toggle-menu").addEventListener("click", (e) => {
+        let el = document.querySelector("nav ul");
+        el.classList.toggle("shown");
+        if (el.classList.contains("shown")) {
+            el.style.height = (el.children.length * 59.2) + 'px';
+        } else {
+            el.style.height = '59.2px';
+        }
+    });
+    document.querySelector("button#toggle-theme").addEventListener("click", (e) => {
+        const icon = document.querySelector("button#toggle-theme i");
+        if (icon.innerHTML == "brightness_low") {
+            setTheme("dark");
+        } else if (icon.innerHTML == "brightness_auto") {
+            setTheme("light");
+        } else {
+            setTheme("auto");
+        }
+    });
+});

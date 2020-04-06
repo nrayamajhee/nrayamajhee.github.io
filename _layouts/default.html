@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
-
-    <page-content>
-      <wrapper>
-  {% include theme-toggle.html %}
-  		<content>
-        {{ content }}
-       	</content>
-       	
-  {% include footer.html %}
-      </wrapper>
-    </page-content>
-  </body>
+<body>
+    <div class="wrap">
+        {% include header.html %}
+        <main class="card">
+            <h1 id="{{page.title}}"> {{ page.title }} </h1>
+            <article>
+                {{ content }}
+            </article>
+        </main>
+        {% include footer.html %}
+    </div>
+</body>
 
 </html>
