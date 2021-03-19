@@ -9,7 +9,7 @@ navbar-index: 0
 
 Hello! I am Nishan Rayamajhee.
 I love to design and <a href="https://people.eecs.berkeley.edu/~bh/hacker.html" onclick="location.href='https://stallman.org/articles/on-hacking.html';" target="_blank">hack</a> things when I am not slacking or hanging out at some lousy party.
-I am from Nepal and I went to school here at [University of New Orleans](http://www.uno.edu).
+I am from Nepal and I went to school at [University of New Orleans](http://www.uno.edu).
 
 Here's my [resume](/files/Resume.pdf). If you're looking for a passionate rustacean with zero professional experience in it, please consider hiring me!
 
