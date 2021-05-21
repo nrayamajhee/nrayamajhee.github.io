@@ -13,9 +13,7 @@ I am from Nepal and I went to school at [University of New Orleans](http://www.u
 
 Here's my [resume](https://docs.google.com/document/d/1cTzLbvkweQjnIXQuTS6ZzdNNqmXeem-tPKa7hpkaWiI/edit?usp=sharing). If you're looking for a passionate rustacean with zero professional experience in it, please consider hiring me!
 
-Play my homework: [Moordenaar]({{ site.url }}/Moordenaar/).
-
-Also, checkout my projects [here]({{site.url}}/projects).
+Play my homework: [Moordenaar]({{ site.url }}/Moordenaar/). Also, checkout my projects [here]({{site.url}}/projects).
 
 You can follow/contact me at:
 
