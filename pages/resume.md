@@ -6,7 +6,7 @@ title: Résumé
 
 # Nishan Rayamajhee
 
-<nishan.rayamajhee.com>  
+[nishan.rayamajhee.com](https://nishan.rayamajhee.com)  
 <nishan@rayamajhee.com>
 
 ## Experience
