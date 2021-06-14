@@ -18,8 +18,8 @@ nishan@rayamajhee.com
 
 July 2019 - Present (Full-Time)
 
-- Implement new features to the desktop application used by Airline Reservation Agents.
-- Migrate exisiting functionality to a Web API.
+- Implement new features to the java application used by American Airlines Reservation Agents.
+- Migrate exisiting functionality from the desktop application to a RESTful Web API.
 
 Core technologies used: _Java, Velocity Templates, SpringBoot_
 
