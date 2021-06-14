@@ -6,8 +6,8 @@ title: Résumé
 
 # Nishan Rayamajhee
 
-nishan.rayamajhee.com  
-nishan@rayamajhee.com
+<nishan.rayamajhee.com>  
+<nishan@rayamajhee.com>
 
 ## Experience
 
@@ -100,19 +100,19 @@ Graduated May 2019
 
 - React
 - VueJS
-- jQuery
 - Web Assembly (Rust)
+- NodeJS
+- ExpressJS
+- MongoDB
+- Jekyll with Markdown & Liquid
+- Jest
+- PostgreSQL
+- jQuery
+- GraphQL(Apollo)
 - WebGL
 - Web Audio
 - Firebase
-- NodeJS
-- ExpressJS
-- GraphQL(Apollo)
-- PostgreSQL
-- MongoDB
 - Flutter
-- Jekyll with Markdown & Liquid
-- Jest
 
 ### Platforms and Tools
 
