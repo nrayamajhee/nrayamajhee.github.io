@@ -18,14 +18,13 @@ title: Résumé
 
 July 2019 - Present (Full-Time)
 
-- Implement new features to the java application used by American Airlines Reservation Agents.
-- Migrate exisiting functionality from the desktop application to a RESTful Web API.
+- Implement new features to the Java application used by American Airlines Reservation Agents.
+- Migrate existing functionality from the desktop application to a RESTful Web API.
 
 Core technologies used: _Java, Velocity Templates, SpringBoot_
 
 - Developed automation for businesses to accelerate their workflow and increase productivity.
-- Automated processes that required human interaction to log into servers, run scripts, and gather information.
-- Setup automation to prepare and circulate reports, reducing hours dedicated towards administrative tasks.
+- Setup automation to securely login and prepare reports from wireless access points, and circulate them via email and MS Sharepoint, reducing clients' hours dedicated towards it.
 
 Core technologies used: _Win Automation, JavaScript, PowerShell, SQL_
 
@@ -50,9 +49,8 @@ Kupondole, Lalitpur, Nepal
 July 2014 - August 2015 (Full-Time)
 
 
-- Designed and developed websites as well as hosted and managed clients’ data.
-- Produced brand artworks and illustrations.
-- Gained invaluable experience as a founding member and contributed towards sustaining business growth.
+- Gained invaluable experience as a founding member and contributed towards sustainable business growth.
+- Designed and developed portfolio websites, produced brand artwork and illustration, as well as hosted and managed clients’ data.
 
 Core Technologies used: _Jekyll with Markdown and Liquid, JavaScript/HTML/CSS, AWS S3, Adobe PhotoShop, Inkscape_
 
@@ -134,7 +132,7 @@ Graduated May 2019
 
 ### CSCI Achievement Award 2017
 
-UNO Department of Computer Science, UNO  
+UNO Department of Computer Science
 
 _For demonstrating stellar performance at the department._
 
@@ -149,10 +147,10 @@ _Most prestigious scholarship in the university._
 
 Denver, CO, 1st April 2017  
 
-_Winner among participants tasked with developing an autonomous robot capable of navigating and mapping a simulated cave system._
+_**Competition Winner** among participants tasked with developing an autonomous robot capable of navigating and mapping a simulated cave system._
 
 ### National Model United Nations
 
 New York, NY, 20 - 24 March 2016  
 
-_Distinguished Delegation Award and Outstanding Position Paper Award for acting as delegates for UNICEF and the Commonwealth of Australia._
+_**Distinguished Delegation Award** and **Outstanding Position Paper** Award for acting as delegates for UNICEF and the Commonwealth of Australia._
