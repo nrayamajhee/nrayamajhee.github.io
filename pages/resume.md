@@ -11,35 +11,49 @@ title: Résumé
 
 ## Experience
 
+### Parafin, Inc.
+#### Product Engineer
+
+611 Mission St, 7th floor
+
+August 2021 - Present (Full-Time)
+
+- Develop new features to improve usability, performance, and reliability of Parafin's product offerings
+- Fix bugs, improve UX and technical infrastructure as Parafin continues to scale.
+
+Core technologies used: Typescript, React with Hooks, AWS, Netlify
+
 ### DXC Technology
 #### Full-Stack Developer
 
 1615 Poydras St #2400, New Orleans, LA  
 
-July 2019 - Present (Full-Time)
+July 2019 - July 2021 (Full-Time)
 
-- Implement new features to the Java application used by American Airlines Reservation Agents.
+- Implement new features to the Java application used by American Airlines Reservation Agents
 - Migrate existing functionality from the desktop application to a RESTful Web API.
-
-Core technologies used: _Java, Velocity Templates, SpringBoot_
-
 - Developed automation for businesses to accelerate their workflow and increase productivity.
-- Setup automation to securely login and prepare reports from wireless access points, and circulate them via email and MS Sharepoint, reducing clients' hours dedicated towards it.
+- Setup automation to securely log in and prepare reports from wireless access points, and circulate them via email and MS Sharepoint, reducing clients' hours dedicated towards it.
 
-Core technologies used: _Win Automation, JavaScript, PowerShell, SQL_
+Core technologies used: _Java, Velocity Templates, SpringBoot, Win Automation, JavaScript, PowerShell, SQL_
 
-### Bioinformatics and Machine Learning Lab
-#### Web Developer  
-
-University of New Orleans  
-
+### University of New Orleans
 June 2016 - May 2019  (Part-Time)
 
+#### Web Developer for Bioinformatics and Machine Learning Lab
 
 - Developed and managed the lab's portfolio site. \([biomall.cs.uno.edu](https://biomall.cs.uno.edu)\)
 - Developed a web application to enable researchers to access and run bioinformatics algorithms remotely without having to download and install/compile offline versions. \([bmll.cs.uno.edu](https://bmll.cs.uno.edu)\)
 
 Core technologies used: _VueJS, ExpressJS, NodeJS, MongoDB, Jekyll with Markdown and Liquid, Nginx, Linux_
+
+#### Student Mentor in Computer Science Department
+
+- Helped students with their introductory programming courses (Java, Assembly, and Data Structures).
+
+#### Undergraduate Researcher for Narrative Intelligence Lab
+
+- Developed a simple mobile game for data-driven assessment of mathematical reasoning in middle school children.
 
 ### Feature Studios
 #### Graphics Designer / Web Developer
@@ -50,27 +64,10 @@ July 2014 - August 2015 (Full-Time)
 
 
 - Gained invaluable experience as a founding member and contributed towards sustainable business growth.
-- Designed and developed portfolio websites, produced brand artwork and illustration, as well as hosted and managed clients’ data.
+- Designed and developed portfolio websites, produced brand artwork and illustrations, and hosted and managed clients’ data.
 
 Core Technologies used: _Jekyll with Markdown and Liquid, JavaScript/HTML/CSS, AWS S3, Adobe PhotoShop, Inkscape_
 
-### Computer Science Department
-#### Student Mentor
-
-University of New Orleans  
-
-August 2016 - May 2019  (Part-Time)
-
-- Helped students with their introductory programming courses (Java, Assembly, and Data Structures).
-
-### Narrative Intelligence Lab
-#### Undergraduate Researcher
-
-University of New Orleans  
-
-Spring 2017
-
-- Developed a simple mobile game for data-driven assessment of mathematical reasoning in middle school children.
 
 ## Education
 
