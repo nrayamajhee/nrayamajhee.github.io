@@ -86,8 +86,8 @@ Graduated May 2019
 ### Languages
 
 - Rust
-- JavaScript
-- HTML/CSS
+- TypeScript
+- HTML/CSS/JavaScript
 - SQL
 - Java
 - Python
