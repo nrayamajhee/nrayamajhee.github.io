@@ -27,6 +27,7 @@ h2 {
 
 h3 {
 	font-size: 1rem;
+	margin-top: var(--margin);
 }
 
 h4 {
@@ -84,17 +85,9 @@ button span {
 	margin-left: calc(var(--pad) / 2);
 }
 
-ul:first-of-type + p  {
-	margin: 0;
-}
-
 ul {
 	padding-left: 1em;
 	margin: var(--margin) 0;
-}
-
-ul + p {
-	margin-bottom: 1rem;
 }
 
 #skills ~ ul {

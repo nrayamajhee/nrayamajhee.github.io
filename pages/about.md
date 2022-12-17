@@ -13,13 +13,12 @@ I am from Nepal and I went to school at [University of New Orleans](http://www.u
 
 Here's my [resume]({{ site.url }}/resume). If you're looking for a passionate rustacean with zero professional experience in it, please consider hiring me!
 
-Play my homework: [Moordenaar]({{ site.url }}/Moordenaar/). Also, checkout my projects [here]({{site.url}}/projects).
+Play my homework: [Moordenaar]({{ site.url }}/Moordenaar/).
 
-You can follow/contact me at:
+Checkout:
 
-- twitter: [{{ site.username }}](https://twitter.com/{{ site.username }})
 - github: [{{ site.username }}](https://github.com/{{ site.username }})
-- gitlab: [{{ site.username }}](https://gitlab.com/{{ site.username }})
+- twitter: [{{ site.username }}](https://twitter.com/{{ site.username }})
 - instagram: [{{ site.username }}](https://instagram.com/{{ site.username }})
 - linkedin: [{{ site.username }}](https://www.linkedin.com/in/{{ site.username }})
 
