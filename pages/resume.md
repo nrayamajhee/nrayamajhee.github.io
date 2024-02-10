@@ -33,7 +33,6 @@ July 2019 - July 2021 (Full-Time)
 - Implement new features to the Java application used by American Airlines Reservation Agents
 - Migrate existing functionality from the desktop application to a RESTful Web API.
 - Developed automation for businesses to accelerate their workflow and increase productivity.
-- Setup automation to securely log in and prepare reports from wireless access points, and circulate them via email and MS Sharepoint, reducing clients' hours dedicated towards it.
 
 Core technologies used: _Java, Velocity Templates, SpringBoot, Win Automation, JavaScript, PowerShell, SQL_
 
