@@ -18,10 +18,10 @@ title: Résumé
 
 August 2021 - Present (Full-Time)
 
-- Develop new features to improve usability, performance, and reliability of Parafin's product offerings
-- Fix bugs, improve UX and technical infrastructure as Parafin continues to scale.
+- Develop new features to improve usability, performance, and reliability of Parafin's product offerings.
+- Improve technical infrastructure to help Parafin scale.
 
-Core technologies used: Typescript, React with Hooks, AWS, Netlify
+Core technologies used: _Typescript, React, Scala, Next.js, Sentry, Plaid, Auth0_
 
 ### DXC Technology
 #### Full-Stack Developer
@@ -30,27 +30,27 @@ Core technologies used: Typescript, React with Hooks, AWS, Netlify
 
 July 2019 - July 2021 (Full-Time)
 
-- Implement new features to the Java application used by American Airlines Reservation Agents
-- Migrate existing functionality from the desktop application to a RESTful Web API.
-- Developed automation for businesses to accelerate their workflow and increase productivity.
+- Implement new features to a legacy Java application used by American airlines reservation agents.
+- Migrate existing functionality from the legacy application to a RESTful Web API.
+- Develop automation for businesses to accelerate their workflow and increase productivity.
 
-Core technologies used: _Java, Velocity Templates, SpringBoot, Win Automation, JavaScript, PowerShell, SQL_
+Core technologies used: _Java, Velocity Templates, SpringBoot, JavaScript, PowerShell, SQL, Win Automation_
 
 ### University of New Orleans
 June 2016 - May 2019  (Part-Time)
 
-#### Web Developer for Bioinformatics and Machine Learning Lab
+#### Web Developer, Bioinformatics and Machine Learning Lab
 
 - Developed and managed the lab's portfolio site. \([biomall.cs.uno.edu](https://biomall.cs.uno.edu)\)
 - Developed a web application to enable researchers to access and run bioinformatics algorithms remotely without having to download and install/compile offline versions. \([bmll.cs.uno.edu](https://bmll.cs.uno.edu)\)
 
 Core technologies used: _VueJS, ExpressJS, NodeJS, MongoDB, Jekyll with Markdown and Liquid, Nginx, Linux_
 
-#### Student Mentor in Computer Science Department
+#### Student Mentor, Computer Science Department
 
 - Helped students with their introductory programming courses (Java, Assembly, and Data Structures).
 
-#### Undergraduate Researcher for Narrative Intelligence Lab
+#### Undergraduate Researcher, Narrative Intelligence Lab
 
 - Developed a simple mobile game for data-driven assessment of mathematical reasoning in middle school children.
 
@@ -61,12 +61,10 @@ Kupondole, Lalitpur, Nepal
 
 July 2014 - August 2015 (Full-Time)
 
-
 - Gained invaluable experience as a founding member and contributed towards sustainable business growth.
-- Designed and developed portfolio websites, produced brand artwork and illustrations, and hosted and managed clients’ data.
+- Designed and developed portfolio websites, produced brand artwork, and managed clients’ data.
 
 Core Technologies used: _Jekyll with Markdown and Liquid, JavaScript/HTML/CSS, AWS S3, Adobe PhotoShop, Inkscape_
-
 
 ## Education
 
@@ -81,48 +79,37 @@ Graduated May 2019
 
 ### Languages
 
-- Rust
 - TypeScript
 - HTML/CSS/JavaScript
 - SQL
-- Java
-- Python
-- C/C++
-- Dart
+- Scala
+- Rust
+- C
 
 ### Frameworks and APIs 
 
 - React
-- VueJS
-- Web Assembly (Rust)
 - NodeJS
-- ExpressJS
-- MongoDB
+- Fastify
 - Jekyll with Markdown & Liquid
 - Jest
+- Playwright
 - PostgreSQL
 - jQuery
-- GraphQL(Apollo)
-- WebGL
-- Web Audio
-- Firebase
-- Flutter
+- WebGL/Webgpu
+- Web Assembly (Rust)
 
 ### Platforms and Tools
 
-- Linux
 - Bash
-- Windows
 - PowerShell
-- Raspberry Pi
-- Arduino
-- Teensy USB
 - Docker
-- Nginx
-- AWS (EC2 and S3)
-- Heroku
+- Vercel
+- Fly.io
 - Git
-- GitLab CI/CD
+- Github Actions
+- Raspberry Pi
+- Arduino/Teensy USB
 
 ## Awards
 
@@ -130,7 +117,7 @@ Graduated May 2019
 
 UNO Department of Computer Science
 
-_For demonstrating stellar performance at the department._
+_For demonstrating stellar performance in the department._
 
 ### Homer L. Hitt Scholarship
 
@@ -149,4 +136,4 @@ _**Competition Winner** among participants tasked with developing an autonomous 
 
 New York, NY, 20 - 24 March 2016  
 
-_**Distinguished Delegation Award** and **Outstanding Position Paper** Award for acting as delegates for UNICEF and the Commonwealth of Australia._
+_**Distinguished Delegation** and **Outstanding Position Paper** awards for acting as delegates for UNICEF and the Commonwealth of Australia._
