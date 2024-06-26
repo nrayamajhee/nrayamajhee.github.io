@@ -15,36 +15,37 @@ title: Résumé
 #### Product Engineer
 
 301 Howard St. Suite 1500, San Francisco, CA  
-August 2021 - Present (Full-Time)
+August 2021 - Present
 
 - Work closely with designers and product managers to implement new features.
-- Improve usability, performance, and reliability of Parafin's product offerings.
-- Improve technical infrastructure to help Parafin scale.
+- Improve usability, performance, and reliability of Parafin's core products.
+- Improve technical infrastructure such as end-to-end testing and authentication.
+- Developed [Parafin.com](https://www.parafin.com)
 
-Core technologies used: _Typescript, React, Playwright, Scala, Next.js, Sentry, Auth0, Plaid, Persona_
+Core technologies used: _Typescript, React, Playwright, Nextjs, Figma, Scala, SQL, Webflow_
 
 ### DXC Technology
 #### Full-Stack Developer
 
 1615 Poydras St #2400, New Orleans, LA  
 
-July 2019 - July 2021 (Full-Time)
+July 2019 - July 2021
 
-- Add new features to a legacy Java application used by American Airlines reservation agents.
-- Migrate existing functionality from the legacy application to a RESTful Web API.
-- Develop automation for businesses to accelerate their workflow and increase productivity.
+- Developed features for application used by American Airlines reservation agents.
+- Migrated existing functionality from the legacy application to a RESTful Web API.
+- Developed automation for clients to accelerate their workflow and increase productivity.
 
-Core technologies used: _Java, Velocity Templates, SpringBoot, JavaScript, PowerShell, SQL, Win Automation_
+Core technologies used: _SpringBoot, Java, Velocity Templates, JavaScript, PowerShell, SQL, Win Automation_
 
 ### University of New Orleans
 June 2016 - May 2019  (Part-Time)
 
 #### Web Developer, Bioinformatics and Machine Learning Lab
 
-- Developed and managed the lab's portfolio site. \([biomall.cs.uno.edu](https://biomall.cs.uno.edu)\)
-- Developed a web application to enable researchers to access and run bioinformatics algorithms remotely without having to download and install/compile offline versions. \([bmll.cs.uno.edu](https://bmll.cs.uno.edu)\)
+- Developed and maintained the lab's portfolio site. \([biomall.cs.uno.edu](https://biomall.cs.uno.edu)\)
+- Developed a web application that enables researchers to access bioinformatics algorithms on the cloud. \([bmll.cs.uno.edu](https://bmll.cs.uno.edu)\)
 
-Core technologies used: _VueJS, ExpressJS, NodeJS, MongoDB, Jekyll with Markdown and Liquid, Nginx, Linux_
+Core technologies used: _Vuejs, Expressjs, MongoDB, Jekyll with Markdown and Liquid, Nginx, Linux_
 
 #### Student Mentor, Computer Science Department
 
@@ -64,7 +65,7 @@ July 2014 - August 2015 (Full-Time)
 - Gained invaluable experience as a founding member and contributed towards sustainable business growth.
 - Designed and developed portfolio websites, produced brand artwork, and managed clients’ data.
 
-Core Technologies used: _Jekyll with Markdown and Liquid, JavaScript/HTML/CSS, AWS S3, Adobe PhotoShop, Inkscape_
+Core Technologies used: _Jekyll with Markdown and Liquid, JavaScript/HTML/CSS, AWS S3, Adobe PhotoShop_
 
 ## Education
 
@@ -82,31 +83,32 @@ Graduated May 2019
 - TypeScript
 - HTML/CSS/JavaScript
 - SQL
-- Scala
 - Rust
+- Scala
 - C
 
 ### Frameworks and APIs 
 
 - React
-- NodeJS
 - Fastify
 - Jekyll with Markdown & Liquid
 - Jest
 - Playwright
-- PostgreSQL
-- jQuery
 - WebGL/Webgpu
 - Web Assembly (Rust)
 
 ### Platforms and Tools
 
+- Git
+- Nodejs
+- PostgreSQL
+- Docker
 - Bash
 - PowerShell
-- Docker
+- Figma
+- Webflow
 - Vercel
 - Fly.io
-- Git
 - Github Actions
 - Raspberry Pi
 - Arduino/Teensy USB
