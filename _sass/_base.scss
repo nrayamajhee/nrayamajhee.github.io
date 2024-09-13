@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+
+    color: $text-color;
+    background: $background-color;
+    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+}
+*:focus {
+  outline: 1px dotted $brand-color;
+}
+h1, p, ul {
+    margin: $base-line-height * $base-font-size 0;
+}
+h1 {
+    font-weight: 300;
+    font-size: 2em;
+}
+ul {
+    padding-left: 2 * $spacing-unit;
+}
+a {
+    color: $link-color;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+
+    &:visited {
+        color: darken($link-color, 10%);
+    }
+}
+body.dark-theme {
+    color: $background-color;
+    background: $text-color;
+
+    a {
+        color: lighten($link-color, 25%);
+
+        &:visited {
+            color: lighten($link-color, 10%);
+        }
+    }
+}
+body.animate {
+    transition-property: background-color;
+    transition-duration: $animation-duration;
+}
