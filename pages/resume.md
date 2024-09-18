@@ -6,11 +6,6 @@ title: Résumé
 
 # Nishan Rayamajhee
 
-[nishan.rayamajhee.com](https://nishan.rayamajhee.com)  
-<rayamajheenishan@gmail.com>  
-[linkedin](https://linkedin.com/in/nrayamajhee/)  
-[github](https://github.com/nrayamajhee/)
-
 ## Experience
 
 ### Parafin, Inc.
@@ -66,6 +61,12 @@ July 2014 - August 2015 (Full-Time)
 - Designed and developed portfolio websites, produced brand artwork, and managed clients’ data.
 
 Core Technologies used: _JavaScript/HTML/CSS, Jekyll with Markdown and Liquid, AWS S3, Adobe PhotoShop_
+
+
+[nishan.rayamajhee.com](https://nishan.rayamajhee.com)  
+<rayamajheenishan@gmail.com>  
+[linkedin](https://linkedin.com/in/nrayamajhee/)  
+[github](https://github.com/nrayamajhee/)
 
 ## Education
 
