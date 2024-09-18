@@ -7,7 +7,9 @@ title: Résumé
 # Nishan Rayamajhee
 
 [nishan.rayamajhee.com](https://nishan.rayamajhee.com)  
-<rayamajheenishan@gmail.com>
+<rayamajheenishan@gmail.com>  
+[linkedin](https://linkedin.com/in/nrayamajhee/)  
+[github](https://github.com/nrayamajhee/)
 
 ## Experience
 
@@ -17,10 +19,10 @@ title: Résumé
 301 Howard St. Suite 1500, San Francisco, CA  
 August 2021 - August 2024
 
-- Work closely with product managers and designers to implement new features.
-- Improve usability, performance, and reliability of Parafin's core products.
-- Improve technical infrastructure such as end-to-end testing and authentication.
-- Worked on capital products, partner dashboard, and [website](https://www.parafin.com)
+- Worked closely with product managers and designers to implement new features.
+- Worked on capital products, partner dashboard, and [website](https://www.parafin.com).
+- Improved usability, performance, and reliability of Parafin's core products.
+- Improved technical infrastructure such as end-to-end testing and authentication.
 
 Core technologies used: _Typescript, React, Playwright, NextJS, Figma, Scala, SQL, Webflow_
 
@@ -31,8 +33,8 @@ Core technologies used: _Typescript, React, Playwright, NextJS, Figma, Scala, SQ
 July 2019 - July 2021
 
 - Developed features for the application used by American Airlines reservation agents.
-- Migrated existing functionality from the legacy application to a RESTful Web API.
 - Developed automation for clients to accelerate their workflow and increase productivity.
+- Migrated existing functionality from the legacy application to a RESTful Web API.
 
 Core technologies used: _Java, SpringBoot, JavaScript, PowerShell, SQL, Win Automation_
 
@@ -119,23 +121,16 @@ Graduated May 2019
 
 UNO Department of Computer Science
 
-_For demonstrating stellar performance in the department._
-
-### Homer L. Hitt Scholarship
-
-University of New Orleans  
-
-_Most prestigious scholarship in the university._
-
-
 ### IEEE Region 5 Robotics Competition
 
 Denver, CO, 1st April 2017  
 
-_**Competition Winner** among participants tasked with developing an autonomous robot capable of navigating and mapping a simulated cave system._
+__Competition Winner__  
+_developed an autonomous robot capable of navigating and mapping a simulated cave system_
 
 ### National Model United Nations
 
 New York, NY, 20 - 24 March 2016  
 
-_**Distinguished Delegation** and **Outstanding Position Paper** awards for acting as delegates of UNICEF and the Commonwealth of Australia._
+__Distinguished Delegation__ and __Outstanding Position Paper__  
+_as delegates of UNICEF and the Commonwealth of Australia_
