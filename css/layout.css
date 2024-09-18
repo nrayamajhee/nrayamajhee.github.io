@@ -53,11 +53,6 @@ nav button:last-child {
     right: 0;
 }
 
-footer {
-    display: flex;
-    justify-content: space-between;
-}
-
 p {
     clear: both;
 }
@@ -89,14 +84,8 @@ img {
     nav ul a {
         display: none;
     }
-    footer {
-        flex-direction: column;
-    }
     main {
         min-height: calc(100vh - 2.5rem - 7.25 * var(--gap));
-    }
-    footer p {
-        margin-bottom: var(--pad);
     }
     nav ul a.active,
     nav ul.shown a {
