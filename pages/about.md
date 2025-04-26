@@ -18,8 +18,6 @@ Play my homework: [Moordenaar]({{ site.url }}/Moordenaar/).
 Checkout:
 
 - github: [{{ site.username }}](https://github.com/{{ site.username }})
-- twitter: [{{ site.username }}](https://twitter.com/{{ site.username }})
-- instagram: [{{ site.username }}](https://instagram.com/{{ site.username }})
-- linkedin: [{{ site.username }}](https://www.linkedin.com/in/{{ site.username }})
+- instagram: [nishan.rayamajhee](https://instagram.com/nishan.rayamajhee)
 
 If you're looking for the other Rayamajhee, go to [veeshan.rayamajhee](http://veeshan.rayamajhee.com).
