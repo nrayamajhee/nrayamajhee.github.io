@@ -13,6 +13,8 @@ I am from Nepal and I went to school at [University of New Orleans](http://www.u
 
 Here's my [resume]({{ site.url }}/files/Resume_Nishan Rayamajhee.pdf). If you're looking for a passionate rustacean with zero professional experience in it, please consider hiring me!
 
+Listen to my playlist: [grooves and grams](https://nishan.rayamajhee.com/grooves_n_grams/).
+
 Play my homework: [Moordenaar]({{ site.url }}/Moordenaar/).
 
 Checkout:
