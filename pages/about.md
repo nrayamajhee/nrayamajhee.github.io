@@ -21,6 +21,7 @@ Stuff:
 - My note taker app: [ontheweb.site](https://ontheweb.site)
 - Listen to my playlist: [grooves and grams](https://nishan.rayamajhee.com/grooves_n_grams/)
 - Play my homework from school: [Moordenaar](https://nishan.rayamajhee.com/Moordenaar/)
+- Create music with my synthesizer app: [Studio](https://nishan.rayamajhee.com/studio/)
 
 
 
